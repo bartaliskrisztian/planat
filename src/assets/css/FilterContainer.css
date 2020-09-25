@@ -1,0 +1,31 @@
+.filter-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.ui.icon.input,
+.sort-by,
+.filter {
+  width: 30%;
+  margin: 10px;
+}
+
+.ui.icon.input {
+  width: 130px;
+  height: fit-content;
+}
+
+.ui.icon.input input {
+  background: rgba(141, 143, 165, 0.16);
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 7px 10px;
+}
+
+.ui.icon.input input:focus {
+  border: 1px solid #ccc;
+}

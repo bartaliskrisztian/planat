@@ -1,0 +1,47 @@
+.body {
+  background: #f2f2f2;
+}
+
+.home_page {
+  padding-top: 80px;
+}
+
+.hero-image {
+  background: #fff;
+  padding-bottom: 50px;
+  box-shadow: 2px 2px 7px #dbdbdb;
+}
+
+.hero-image img {
+  height: auto;
+  width: 50%;
+  margin-left: 50%;
+}
+
+.hero-text-wrapper .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #3a5e57;
+  font-size: 70px;
+  display: inline;
+}
+
+.navbar {
+  z-index: 10;
+}
+
+/* for smart phones */
+@media (max-width: 768px) {
+  img {
+    height: 150px;
+    margin-left: 40%;
+  }
+  .hero-text {
+    font-size: 12px;
+    top: 10%;
+    left: 20%;
+  }
+}

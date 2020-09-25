@@ -1,0 +1,58 @@
+.search__holder {
+  padding-top: 100px;
+}
+
+.search-results {
+  padding-top: 20px;
+  position: relative;
+  height: calc(100vh - 120px);
+  display: flex;
+}
+
+.search-results .search-bar {
+  transform: none;
+}
+
+.sightlist-element {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-results .leaflet-container {
+  width: 50%;
+  margin-right: 0;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.search-results__sightlist-filter-container {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.search-results__sightlist-filter-container .sight-list {
+  overflow-y: scroll;
+  height: calc(100% - 60px);
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #5c9489;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

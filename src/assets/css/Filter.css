@@ -1,0 +1,87 @@
+.filter {
+  position: relative;
+}
+
+.filter__button {
+  color: #fff;
+  background: #5c9489;
+  padding: 5px 0;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+  transition: background 300ms ease;
+  border: none;
+  min-width: 130px;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+
+.filter__button:hover {
+  cursor: pointer;
+  background: #3a5e57;
+}
+
+.filter__button:focus {
+  outline: none;
+}
+
+.filter__button__handle {
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  height: 8px;
+  width: 8px;
+  top: 50%;
+  display: inline-block;
+  transform: translate(10px, -50%) rotate(45deg);
+  transition: transform 300ms ease;
+}
+
+.filter__button__handle.open {
+  transform: translate(10px, calc(50% - 4px)) rotate(-135deg);
+}
+
+.filter__popup {
+  position: absolute;
+  top: calc(100% + 5px);
+  border: 0px solid #bbb;
+  background-color: #fff;
+  z-index: 1;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  min-width: 300px;
+  left: 50%;
+  transform: translate(-25%, 0);
+}
+
+.filter__popup.open {
+  border-radius: 10px;
+  max-height: 230px;
+  padding-bottom: 20px;
+  box-shadow: 2px 2px 7px #b3b3b3;
+}
+
+.filter__price-holder,
+.filter__opening-hours {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+}
+
+.filter__child-safe {
+  padding: 0 0 0 20px;
+  display: flex;
+}
+
+.filter__name {
+  width: 25%;
+  margin-right: 20px;
+}
