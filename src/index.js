@@ -11,7 +11,7 @@ ReactDOM.render(
   <Auth0Provider
     domain="dev-tfvblr3i.eu.auth0.com"
     clientId="kFmwyZHoMiqQOLZwu7Kw7VmPmLjItwC3"
-    redirectUri={window.location.origin}
+    redirectUri={`${window.location.origin}/planat`}
   >
     <App />
   </Auth0Provider>,
