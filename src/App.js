@@ -11,13 +11,13 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path={`${process.env.SITE_URL}/planat/`}>
+          <Route exact path={`${process.env.SITE_URL}/`}>
             <Home />
           </Route>
-          <Route exact path={`${process.env.SITE_URL}/planat/search-results`}>
+          <Route exact path={`${process.env.SITE_URL}/search-results`}>
             <Search />
           </Route>
-          <Route exact path={`${process.env.SITE_URL}/planat/details`}>
+          <Route exact path={`${process.env.SITE_URL}/details`}>
             <DetailView />
           </Route>
         </Switch>
