@@ -267,6 +267,7 @@ function DetailView() {
                   </div>
                 </div>
                 <p>{rev.text} </p>
+                <p>{rev.rating && `Rating: ${rev.rating}`}</p>
               </div>
             ))}
           </div>
