@@ -48,9 +48,8 @@ function Search() {
 
   const filterByInputText = (e) => {
     setInputText(e.target.value);
-    const sorted = sortByOption(searchResults, sortOption);
     setFilteredSearchResults(
-      sorted.filter(function (result) {
+      sortByOption(searchResults, sortOption).filter(function (result) {
         return result.name.toLowerCase().includes(e.target.value.toLowerCase());
       })
     );

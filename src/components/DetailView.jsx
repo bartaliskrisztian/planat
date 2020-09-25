@@ -11,6 +11,7 @@ import RecommendationsCarousel from "./RecommendationsCarousel";
 import "../assets/css/MapModal.css";
 import { MdZoomOutMap } from "react-icons/md";
 import { GrClose } from "react-icons/gr";
+import ImagePlaceholder from "../assets/images/image-placeholder.svg";
 
 const customStyles = {
   content: {
@@ -147,6 +148,10 @@ function DetailView() {
     );
   }, [history.location.search]);
 
+  const handleImageError = (e) => {
+    e.target.src = ImagePlaceholder;
+  };
+
   return (
     details !== null && (
       <div className="detail-container">
@@ -180,7 +185,6 @@ function DetailView() {
             </div>
           </Modal>
         </div>
-
         <div className="detail-container__body">
           {images.length > 0 ? (
             <Slider {...settings} className="detail-container__body__images">
@@ -191,6 +195,7 @@ function DetailView() {
                     alt={imageUrl}
                     key={imageUrl}
                     className="detail-container__body__image"
+                    onError={handleImageError}
                   />
                 </div>
               ))}
@@ -249,8 +254,11 @@ function DetailView() {
             {reviews.slice(1, 5).map((rev, i) => (
               <div className="reviews-item" key={i}>
                 <div className="reviews-item__header">
-                  {console.log(rev)}
-                  <img src={rev.profile_photo_url} alt={rev.author_name}></img>
+                  <img
+                    src={rev.profile_photo_url}
+                    alt={rev.author_name}
+                    onError={handleImageError}
+                  ></img>
                   <div className="reviews-item__details">
                     <div className="reviews-item__name">{rev.author_name}</div>
                     <div className="reviews-item__time">

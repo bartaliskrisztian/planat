@@ -6,6 +6,7 @@ import Search from "./components/Search";
 import NavBar from "./components/NavBar";
 
 function App() {
+  console.log(window.location.origin);
   return (
     <div className="app">
       <Router>

@@ -21,6 +21,7 @@ function RecommendationsCarousel(props) {
       },
       (reject) => console.log(reject)
     );
+    // eslint-disable-next-line
   }, []);
 
   let settings = {
@@ -59,7 +60,6 @@ function RecommendationsCarousel(props) {
 
   const url =
     "https://maps.googleapis.com/maps/api/place/photo?maxwidth=450&max&photoreference=";
-
   return (
     <div className="carousel-container">
       {places.length === 0 ? (
