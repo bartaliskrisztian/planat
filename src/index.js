@@ -9,8 +9,8 @@ import "./assets/css/global.css";
 
 ReactDOM.render(
   <Auth0Provider
-    domain="dev-npy4j9xa.eu.auth0.com"
-    clientId="2u516c1kRETOXva30urSe7kcuDf6iBn4"
+    domain="dev-tfvblr3i.eu.auth0.com"
+    clientId="kFmwyZHoMiqQOLZwu7Kw7VmPmLjItwC3"
     redirectUri={window.location.origin}
   >
     <App />
