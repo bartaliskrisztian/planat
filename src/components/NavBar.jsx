@@ -9,7 +9,7 @@ const NavBar = (props) => {
   return (
     <div className="navbar">
       <h2 className="nav-label">
-        <Link to="/">Plan At</Link>
+        <Link to="/planat">Plan At</Link>
       </h2>
       <div className="profile">
         {user && <div>{user.nickname}</div>}
