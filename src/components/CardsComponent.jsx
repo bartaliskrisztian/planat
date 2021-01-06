@@ -58,7 +58,7 @@ class CardsComponent extends Component {
           <Link
             className="card__body__btn"
             target="_blank"
-            to={`/planat/details?place_id=${place_id}&lat=${lat}&lng=${lng}`}
+            to={`/details?place_id=${place_id}&lat=${lat}&lng=${lng}`}
           >
             Read More
           </Link>

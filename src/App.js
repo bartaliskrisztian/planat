@@ -11,13 +11,13 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/planat/">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/planat/search-results">
+          <Route exact path="/search-results">
             <Search />
           </Route>
-          <Route exact path="/planat/details">
+          <Route exact path="/details">
             <DetailView />
           </Route>
         </Switch>

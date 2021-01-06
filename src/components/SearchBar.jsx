@@ -155,7 +155,7 @@ function SearchBar(props) {
       if (elem[1].Theatre) paramChecked.push("Theatre" + index);
     });
 
-    let newURL = `/planat/search-results?location=${address}&range=${
+    let newURL = `/search-results?location=${address}&range=${
       props.radius
     }&category=${paramCat.join(",")}&subcategory=${paramSubCat.join(
       ","

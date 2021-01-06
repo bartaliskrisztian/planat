@@ -28,7 +28,7 @@ class SightListElement extends Component {
         <Link
           target="blank"
           className="button button--more"
-          to={`/planat/details?place_id=${place_id}&lat=${lat}&lng=${lng}`}
+          to={`/details?place_id=${place_id}&lat=${lat}&lng=${lng}`}
         >
           Details
         </Link>
