@@ -1,6 +1,5 @@
-# Planat
+# Planat - Summer internship project 2020
 
-Summer internship project 2020.
 Planat is a single page web application (SPA) written in reactJS. The user can search for any kind of place all over the world, according to his/her interest.
 Google Places API is used to retrieve the information about the places.
 
@@ -30,3 +29,18 @@ Google Places API is used to retrieve the information about the places.
 * rc-slider
 * react-slick-carousel
 
+## The website contains three 'pages':
+
+### Homepage
+
+The homepage contains:
+
+* navigation bar
+* logo image
+* search bar
+* recommendation component
+* slider with more recommendations
+
+<img src="src/assets/images/readme_images/home.png" alt="home"/>
+
+#### Navigation bar
