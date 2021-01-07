@@ -73,4 +73,5 @@ The user can also see the reviews by other people and a recommendation slider, w
 <img src="src/assets/images/readme_images/detail1.png" alt="detail1" /> 
 <img src="src/assets/images/readme_images/detail2.png" alt="detail2" />
 <img src="src/assets/images/readme_images/detail3.png" alt="detail3" /> 
+<img src="src/assets/images/readme_images/detail4.png" alt="detail4" /> 
 
