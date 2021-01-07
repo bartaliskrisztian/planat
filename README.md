@@ -56,7 +56,21 @@ At the searchbar the user can pick a place anywhere in the world (the places are
 
 Then the user can see two types of recommendation.
 
-<p align="middle" display="flex">
-  <img src="src/assets/images/readme_images/recommendations.png" alt="recommendations" width="500"/> 
-  <img src="src/assets/images/readme_images/slider.png" alt="slider" width="500"/>
-</p>
+<img src="src/assets/images/readme_images/recommendations.png" alt="recommendations" /> 
+<img src="src/assets/images/readme_images/slider.png" alt="slider" />
+
+### 2.Page with the search results
+
+Here the user can search again and see the search results with the places, and a map with the results's place on it.
+
+<img src="src/assets/images/readme_images/result.png" alt="result" />
+
+### 3.Detail page
+
+After clicking on a search result, the user can see the details of a place: name, place on the map, pictures etc.
+The user can also see the reviews by other people and a recommendation slider, with recommendations around the searched place.
+
+<img src="src/assets/images/readme_images/details1.png" alt="details1" /> 
+<img src="src/assets/images/readme_images/details2.png" alt="details2" />
+<img src="src/assets/images/readme_images/details3.png" alt="details3" /> 
+
