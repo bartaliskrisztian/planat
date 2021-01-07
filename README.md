@@ -31,7 +31,7 @@ Google Places API is used to retrieve the information about the places.
 
 ## The website contains three 'pages':
 
-### Homepage
+### 1.Homepage
 
 The homepage contains:
 
@@ -46,3 +46,8 @@ The homepage contains:
 The navigation bar is there on every pages and contains a "Plan at" text at the left, after clicking on it the user is redirected to the homepage. At the right there is a button for logging in, after clicking on it the user can log in with Auth0.
 
 <img src="src/assets/images/readme_images/login.png" alt="login"/>
+
+At the searchbar the user can pick a place anywhere in the world (the places are retrieved from the Google Places API) with an autocomplete search, and then can pick a distance for searching in an area. Then the user can choose his/her interest, as many as he/she wants. 
+
+<img src="src/assets/images/readme_images/place.png" alt="place"/> |
+<img src="src/assets/images/readme_images/options.png" alt="options"/>
