@@ -70,7 +70,7 @@ Here the user can search again and see the search results with the places, and a
 After clicking on a search result, the user can see the details of a place: name, place on the map, pictures etc.
 The user can also see the reviews by other people and a recommendation slider, with recommendations around the searched place.
 
-<img src="src/assets/images/readme_images/details1.png" alt="details1" /> 
-<img src="src/assets/images/readme_images/details2.png" alt="details2" />
-<img src="src/assets/images/readme_images/details3.png" alt="details3" /> 
+<img src="src/assets/images/readme_images/detail1.png" alt="detail1" /> 
+<img src="src/assets/images/readme_images/detail2.png" alt="detail2" />
+<img src="src/assets/images/readme_images/detail3.png" alt="detail3" /> 
 
