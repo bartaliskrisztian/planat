@@ -50,7 +50,13 @@ The navigation bar is there on every pages and contains a "Plan at" text at the 
 At the searchbar the user can pick a place anywhere in the world (the places are retrieved from the Google Places API) with an autocomplete search, and then can pick a distance for searching in an area. Then the user can choose his/her interest, as many as he/she wants. 
 
 <p align="middle" display="flex">
-  <img src="src/assets/images/readme_images/place.png" alt="place" width="300"/> 
-  <img src="src/assets/images/readme_images/options.png" alt="options" width="300"/>
+  <img src="src/assets/images/readme_images/place.png" alt="place" width="400"/> 
+  <img src="src/assets/images/readme_images/options.png" alt="options" width="500"/>
 </p>
 
+Then the user can see two types of recommendation.
+
+<p align="middle" display="flex">
+  <img src="src/assets/images/readme_images/recommendations.png" alt="recommendations" width="500"/> 
+  <img src="src/assets/images/readme_images/slider.png" alt="slider" width="500"/>
+</p>
