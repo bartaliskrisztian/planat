@@ -43,4 +43,6 @@ The homepage contains:
 
 <img src="src/assets/images/readme_images/home.png" alt="home"/>
 
-#### Navigation bar
+The navigation bar is there on every pages and contains a "Plan at" text at the left, after clicking on it the user is redirected to the homepage. At the right there is a button for logging in, after clicking on it the user can log in with Auth0.
+
+<img src="src/assets/images/readme_images/login.png" alt="login"/>
